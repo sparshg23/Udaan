@@ -1,0 +1,161 @@
+{
+    "photoset": {
+        "id": "72177720309449495",
+        "primary": "53014086318",
+        "owner": "196568425@N05",
+        "ownername": "web.udghosh",
+        "photo": [
+            {
+                "id": "53014086318",
+                "secret": "11bf3e7fa6",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 02, Udghosh'22, 15-10-2022 (85)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53014086058",
+                "secret": "342e270d31",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 02, Udghosh'22, 15-10-2022 (117)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53013767734",
+                "secret": "755035631f",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 02, Udghosh'22, 15-10-2022 (137)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53013014922",
+                "secret": "1e9f2882da",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 02, Udghosh'22, 15-10-2022 (140)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53014086073",
+                "secret": "2af7e77e5a",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 02, Udghosh'22, 15-10-2022 (142)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53014085798",
+                "secret": "b2568dba55",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 03, Udghosh'22 (1)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+
+            {
+                "id": "53013607161",
+                "secret": "6865e75e84",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 03, Udghosh'22 (46)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53013767219",
+                "secret": "fc90d5f771",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 03, Udghosh'22 (48)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53013606906",
+                "secret": "63b0c7cf18",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 03, Udghosh'22 (74)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53013766984",
+                "secret": "8bb65c2a0a",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 03, Udghosh'22 (81)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53013606796",
+                "secret": "cff66e5fd6",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 03, Udghosh'22 (82)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53013607181",
+                "secret": "f3d378e89d",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 03, Udghosh'22 (107)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            },
+            {
+                "id": "53013014507",
+                "secret": "f8e5004835",
+                "server": "65535",
+                "farm": 66,
+                "title": "Day 03, Udghosh'22 (111)",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0
+            }
+        ],
+        "page": 1,
+        "per_page": 500,
+        "perpage": 500,
+        "pages": 1,
+        "title": "CA-Gallery-23",
+        "total": 18
+    },
+    "stat": "ok"
+}

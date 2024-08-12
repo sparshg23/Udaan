@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@100;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@100;700&display=swap");
+
+:root {
+  --bg-color: #ece3da;
+  --bg-color-dark: rgb(23, 23, 23);
+  --bg-color-mid: #4e4343;
+  --bg-color-mid1: rgb(129, 92, 39);
+}
+
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Style the scrollbar container */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  height: 0px;
+}
+
+/* Style the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #333; /* Dark background for the track */
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #000; /* Black color for the thumb */
+}
+
+/* Optional: Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #181717; /* Lighter black for hover effect */
+}

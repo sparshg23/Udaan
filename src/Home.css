@@ -1,0 +1,17 @@
+.main-background{
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: -10;
+    opacity: 0.7;
+
+}
+
+@media (max-width: 1050px) {
+
+    .main-background{
+        width: auto;
+        height: 100vh;
+    }
+
+}

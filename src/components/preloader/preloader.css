@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+  }
+  .preloader {
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  .text {
+    margin: 1px;
+    padding: 2px;
+    height: auto;
+    animation: expandImage 2s ease-in-out forwards;
+    font-weight: 30;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+  
+  }
+  
+  
+  .preloader-text {
+    margin: 1px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    color: azure;
+    opacity: 0;
+    animation: fadeInText 2s ease-in-out forwards;
+    margin-top: 10px; /* Add margin-top of 10px */
+    text-align: center;
+    text-transform: uppercase;
+    /* transition-delay: 250ms; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: bisque;
+  }
+  .delay{
+    transition-delay: 0.5s;
+  }
+  
+  @keyframes expandImage {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInText {
+    0% {
+        opacity: 0;
+    }
+    40%{
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  
+  

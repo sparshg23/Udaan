@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px)
+{
+    .nav1{
+        height: 80px;
+        width: 100%;
+        transform: none;
+
+    }
+    .Nav-in{
+        display: none;
+    }
+    .nav-logo{
+        position: relative;
+        left: 0;
+    }
+    .registerbtn{
+        display: none;
+    }
+    .nav-reg{
+        position: relative;
+        right: 0;
+    }
+}
+@media screen and (max-width:750px) {
+    .nav-logo{
+        position: absolute;
+        left:0px;
+        top:0px;
+    }
+}
+@media screen and (max-width:900px) {
+    .Nav-in{
+        width:75%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .Nav-components {
+        padding-right: 50px;
+        padding-left: 20px;
+    }
+    .buttonGetStarted{
+        display: none;
+    }
+}
+.Nav-in p{
+    margin: 0;
+}

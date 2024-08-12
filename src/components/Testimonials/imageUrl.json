@@ -1,0 +1,89 @@
+{
+    "photoset": {
+        "id": "72177720309599200",
+        "primary": "53028848191",
+        "owner": "196568425@N05",
+        "ownername": "web.udghosh",
+        "photo": [
+            {
+                "id": "53028848191",
+                "secret": "87c6685a83",
+                "server": "65535",
+                "farm": 66,
+                "title": "IMG-20220305-WA0068__01 - Vardaan Sharma",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name":"Vardaan ",
+                "description":"I highly recommend the Udghosh CA program to anyone eager to embark on a transformative internship journey. The program stands out for its dedication to participant satisfaction and personal development. I would like to express my sincere appreciation to Udghosh IIT Kanpur for providing me with such an exceptional experience.",
+                "college":"IIT Roorkee"
+            },
+            {
+                "id": "53029336338",
+                "secret": "615661a127",
+                "server": "65535",
+                "farm": 66,
+                "title": "BeautyPlus_20230517211446075_save - Khushi sharma",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name":"Khushi Sharma  ",
+                "description":"As a part of the CA program, I took the initiative to encourage students in my campus to participate in Udghosh. Collaborating with incredible individuals, I honed my communication skills and developed my leadership qualities. I am immensely grateful to IIT Kanpur for offering me such an exceptional experience.",
+                "college":"IGDTU"
+            },
+            {
+                "id": "53029336393",
+                "secret": "3ff9ebe938",
+                "server": "65535",
+                "farm": 66,
+                "title": "IMG_20220104_135752 - Hanu Agarwal",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name":"Hanu Agarwal ",
+                "description":"The sports festival at IIT Kanpur was a fantastic experience for me as a Campus Ambassador. Acting as a liaison between the Udghosh team and the students of my campus, I had the opportunity to raise awareness and promote involvement. It provided me with networking opportunities and allowed me to contribute to a prominent event.",
+                "college":"KIET"
+
+                
+            },
+            {
+                "id": "53028848171",
+                "secret": "d72c20308d",
+                "server": "65535",
+                "farm": 66,
+                "title": "99B7AEFF-84A9-43CF-BCCC-165D1B03C7DD - Simona Karera",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name":"Simona Karera ",
+                "description":"I am immensely grateful for the opportunity to participate in this program. It has opened doors to wonderful opportunities and enriched my journey. I cherish the invaluable knowledge and unforgettable experiences that I have gained along the way.",
+                "college":"IIPR Bangaluru"
+            },
+            {
+                "id": "53029021754",
+                "secret": "de5602abfa",
+                "server": "65535",
+                "farm": 66,
+                "title": "IMG_20230704_192758 - Sandeep Dangi",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name":"Sandeep Dangi ",
+                "description":"The personal growth and fulfilment are remarkable. As a Campus Ambassador at UDGHOSH, I learned valuable lessons. It felt like a flexible internship. Grateful to be part of this program.",
+                "college":"MANIT Bhopal"
+            }
+        ],
+        "page": 1,
+        "per_page": 500,
+        "perpage": 500,
+        "pages": 1,
+        "title": "CA Satisfied Users",
+        "total": 5
+    },
+  "stat":"ok"
+}

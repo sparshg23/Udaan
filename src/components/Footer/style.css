@@ -1,0 +1,276 @@
+.foot-container{
+    background-color: black;
+    color: var(--bg-color);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    bottom: 0px;
+}
+
+.footer-contain {
+    color: var(--bg-color);
+    height: 82%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+    left: 50px;
+    width: 100%;
+}
+
+.footer-about{
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.line{
+    width: 80px;
+    height: 80%;
+    border-left: 1px solid grey;
+}
+.Udghoshlogo{
+    text-align: center;
+    height: 30%;
+    padding: 0px;
+    margin: 0px;
+}
+.Udghoshlogo-img{
+    width: 50px;
+    min-height: 100%;
+}
+.footer-CA p{
+    font-size: 17px;
+    color: grey;
+}
+.footer-about .CA{
+    font-size: 45px;
+    text-align: center;
+}
+.footer-about a{
+    text-align: center;
+}
+.footer-about .by{
+    font-size: 20px;
+    color: grey;
+}
+
+.foot-reg{
+    padding: 10px 40px;
+    height: 40px;
+    width: 70%;
+    background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%);
+    font-size: 17px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgba(255, 255, 255, 0.679);            
+    border-radius: 10px;
+
+}
+.foot-reg:hover{
+    background-position: right center; 
+    color: var(--bg-color);
+    text-decoration: none;
+}
+
+
+
+.footer-CA-work{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-CA-work-CA {
+    font-size: 37px;
+}
+
+.footer-CA-work > *{
+    text-align: center;
+}
+.footer-CA-work p{
+    font-size: 17px;
+    color: grey;
+    transition: color 0.3s;
+}
+.footer-CA-work > p:hover{
+    color: var(--bg-color);
+}
+.contact{
+    height: 80%;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+}
+.contact-title{
+    height: 15%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 450;
+    width: 100%;
+    margin-top: 60px;
+}
+.contact > .by{
+    color: grey;
+    font-size: 100%;
+    width: 70%;
+    text-align: right;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.contact-grid{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 6%;
+    height: 70%;
+}
+.form{
+    height: 80%;
+}
+.contact-grid > *{
+    border-bottom: 1px solid grey;
+    font-size: 17px;
+}
+input, textarea:focus{
+    outline: none;
+    box-shadow: none;
+    padding: 7px;
+}
+
+.contact-message{
+    grid-row: span 2;
+}
+textarea{
+    resize: none;
+    overflow: hidden;
+    padding: 5px 5px 5px 7px;
+}
+.contact-grid > div > *{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.contact-sub{
+    margin-top: 17px;
+    height: 40px;
+    grid-column: span 2;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.contact-sub > button{
+    background-color: rgb(78, 67, 67);
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 20%;
+    transition: color 0.3s, 0.3s ;
+}
+.contact-sub > button:hover{
+    background-color: var(--bg-color);
+    color: rgb(78, 67, 67);
+
+}
+
+.social{
+    margin: 5px;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.social-handles{
+    margin: 0px 20px;
+}
+
+.icon{
+    font-size: 25px;
+    color: grey;
+    transition: color 0.3s, font-size 0.3s;
+}
+.icon:hover{
+    color: rgb(207, 202, 202);
+    scale: 1.1;
+}
+.copy_right {
+    margin-bottom: 15px;
+    margin-right: 100px;
+    font-size: small;
+    font-weight: 200;
+    width: 100%;
+    text-align: right;
+    color: rgb(173, 172, 172);
+}
+
+@media(max-width: 1050px){
+    .line , .footer-CA-work , .noline{
+        display: none;
+    }
+    .contact-title{
+        font-size: 20px;
+    }
+}
+@media(max-width: 675px){
+    .footer-contain{
+        flex-direction: column;
+    }
+    .foot-container{
+        height: 700px;
+    }
+    .contact{
+        width: 80vw;
+    }
+    .foot-reg{
+        margin-top: 10px;
+    }
+    .contact-grid{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .contact-message{
+        order: 1;
+    }
+    .contact-sub{
+        order: 2;
+    }
+
+    .Udghoshlogo-img {
+        width: 38px;
+    }
+    
+    .social{
+        bottom: 10px;
+    }
+
+    .copy_right {
+        text-align: center;
+        margin-right: 0px;
+    }
+    
+}

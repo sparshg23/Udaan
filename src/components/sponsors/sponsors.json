@@ -1,0 +1,77 @@
+{
+    "photoset": {
+        "id": "72177720309466512",
+        "primary": "52398653009",
+        "owner": "196568425@N05",
+        "ownername": "web.udghosh",
+        "photo": [
+            {
+                "id": "53029671293",
+                "secret": "fe520e5f1a_m",
+                "server": "65535",
+                "farm": 66,
+                "title": "unstop",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name": "UNSTOP",
+                "description": "",
+                "link": "https://unstop.com/",
+                "type": "Presented by"
+            },
+            {
+                "id": "53892044984",
+                "secret": "8f544eebe9",
+                "server": "65535",
+                "farm": 66,
+                "title": "corizo",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name": "CORIZO",
+                "description": "",
+                "link": "https://corizo.in/",
+                "type": "Powered by"
+            },
+            {
+                "id": "52398653009",
+                "secret": "4c5e69b0cd_m",
+                "server": "65535",
+                "farm": 66,
+                "title": "blmr",
+                "isprimary": "1",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name": "YHILLS",
+                "description": "Get a free mentor led of your choice",
+                "link": "https://yhills.com/",
+                "type": "Learning Partner"
+            },
+            {
+                "id": "53891712071",
+                "secret": "fe01f2dcc2_c",
+                "server": "65535",
+                "farm": 66,
+                "title": "ims",
+                "isprimary": "0",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "name": "ELEARN MARKETS",
+                "description": "",
+                "link": "https://www.elearnmarkets.com/",
+                "type": "Knowledge Partner"
+            }
+        ],
+        "page": 1,
+        "per_page": 500,
+        "perpage": 500,
+        "pages": 1,
+        "title": "CA_sponsors_24",
+        "total": 7
+    },
+    "stat": "ok"
+}

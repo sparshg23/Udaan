@@ -1,0 +1,33 @@
+
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .navbar {
+    font-size: large;
+  }
+  
+  .btnn {
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 5px;
+  }
+  .btnn:hover {
+    background-color: blue;
+  }
+  
+  .nav-link:hover {
+    color: red;
+    transform: scale(1.1,1.1);
+    /* font-weight: bold; */
+  }
+  @media (max-width: 1000px) {
+    .reg-btn {
+      margin-top: 1rem;
+    }
+  }

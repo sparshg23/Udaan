@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.styled-table {
+  border-collapse: collapse; 
+  /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/640/087/small/Green_color_triangulated_background_texture_vector.jpg); */
+ margin: 25px 0;
+ font-family: sans-serif;
+ /* min-width: 1000px; */
+ box-shadow: 0 0 20px ;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 25px;
+ width: 95%;
+ background-color: #a0c1ab;
+ overflow: hidden;
+ /* background; */
+}
+
+.styled-table thead .parentrow {
+  background-color: #009879;
+  color: #080606;
+  text-align: left;
+}
+
+.styled-table td {
+    padding: 15px 2px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+.styled-table th{
+  padding: 8px 2px;
+    text-align: center;
+    color: #000000;
+}
+.styled-table tbody .parentrow {
+  border-bottom: 2px solid #5f5f5f;
+}
+
+/* .styled-table tbody tr:nth-of-type(even) {
+  background-color: #d9f6f3;
+} */
+
+.styled-table tbody .parentrow:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody .parentrow.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.rewards{
+  padding: 15px;
+  background-color: aliceblue;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-simple-bokeh-background-with-purple-sparkling-effect-picture-image_1206962.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(219, 255, 15);
+  font-weight: bolder;
+  width: 90%;
+  position: relative;
+  margin: auto;
+}
+.styled-table1{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-color: #a0c1ab;
+  border-collapse: collapse; 
+  margin: 25px 0;
+  font-family: sans-serif;
+  /* min-width: 1000px; */
+  box-shadow: 0 0 20px ;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  width: 90%;
+  overflow: hidden ;
+}
+
+.styled-table1 th{
+  background-color: #009879;
+  padding: 8px 2px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+.styled-table1 thead{
+  background-color: #009879;
+  padding: 8px 2px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+.styled-table1 td {
+  padding: 15px 2px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+.mark{
+  /* margin: auto; */
+  /* padding: auto; */
+  /* align-self: auto; */
+  text-align: center;
+  background-image: url(./pages/media/pic-bg1.jpeg);
+  background-size: cover;
+}
+.rewards1{
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(./pages/media/pic-bg1.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(219, 255, 15);
+  font-weight: bolder;
+  /* font-size: 3px; */
+  width: 90%;
+  position: relative;
+  margin: auto;
+}
+.rewards2{
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(./pages/media/pic-bg4.jpeg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(19, 2, 10);
+  font-weight: bolder;
+}
+.maitn1{
+    background-image: url("./pages/media/ranger.png");
+    background-size: cover;
+}
+.imgurl{
+  width: 90%;
+  border-radius: 8px;
+}

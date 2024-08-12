@@ -1,0 +1,142 @@
+.featured-container {
+    margin: 2px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  h3{
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  
+  p{
+    font-size: 2rem;
+  }
+  
+  @media screen and (min-width:840px) {
+    #parallex {
+      width: 400vw;
+      height: 50%;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    
+  .responsibilities {
+    width: 100vw;
+    height: 50vh;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  }
+  
+  .pin-spacer {
+    background-color: var(--bg-color-dark);
+    color: black;
+  }
+  
+  
+  
+  #whyCA{
+    /* margin: 5%; */
+    opacity: 0;
+  }
+  
+  #responsibilty{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  @media screen and (max-width: 840px) {
+  
+    #whyCA{
+      padding: 0;
+    }
+    #whyCA h3{
+      font-size: 3rem;
+    }
+  
+    #whyCA p{
+      font-size: 1.5rem;
+      
+    }
+    
+    #responsibilty{
+      font-size: 3rem;
+      
+    }
+  
+    .responsibilities{
+      padding: 5%;
+    }
+  
+    .responsibilities h3{
+      font-size: 3rem;
+    }
+  
+    .responsibilities p{
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+    #whyCA{
+      padding: 0;
+    }
+    #whyCA h3{
+      font-size: 2.4rem;
+    }
+  
+    #whyCA p{
+      font-size: 0.5 rem;
+      width: 90%;
+    }
+    
+    #responsibilty{
+      font-size: 2.2rem;
+      
+    }
+  
+    .responsibilities h3{
+      font-size: 2.2rem;
+    }
+  
+    .responsibilities p{
+      font-size: 1.2rem;
+    }
+  
+    .listpt{
+      width: 100%;
+    }
+  }
+  
+  
+  
+  .bgimage1{
+    position: absolute;
+    width: 100vw;
+  }
+  
+  #whyCA p{
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
+  
+  .listpt{
+    text-align: left;
+    margin: 10px;
+    border: 1px solid rgb(231, 226, 226);
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 70%;
+    color: rgb(235, 220, 193);
+    padding: 18px;
+    background-color: #4e4343;
+  
+    -webkit-box-shadow: 13px 12px 5px -10px rgba(144, 73, 144, 0.72);
+    -moz-box-shadow: 13px 12px 5px -10px rgba(128, 67, 128, 0.72);
+    box-shadow: 12px 13px 6px -10px rgba(128, 67, 128, 0.72);
+  }
+  ol{
+    list-style: none;
+  }
