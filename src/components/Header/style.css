@@ -17,9 +17,10 @@
   width:100%;
   object-fit: cover; /* Cover the container */
 }
-
+.carousel{
+  position: absolute;
+}
 #default-carousel {
-  position: relative;
   overflow: hidden;
 }
 
@@ -43,7 +44,7 @@
 
 
 .backblur{
-  position: absolute;
+  position: relative;
   height: 100vh;
   width: 100%;
   display: flex;
